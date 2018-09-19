@@ -11,6 +11,7 @@ namespace Ingredients.Controllers
     [ApiController]
     public class IngredientsController : ControllerBase
     {
+        //Connection String
         string cs = ConfigurationManager.ConnectionStrings["SQL_CONNECTION"].ConnectionString;
 
         // GET api/ingredients
